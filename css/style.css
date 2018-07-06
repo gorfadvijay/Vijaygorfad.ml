@@ -170,7 +170,7 @@ a {
 /***********************************HEADER STYLES***********************************/
 #main-header {
   position: fixed;
-  
+
   max-height: 70px;
   width: 100%;
   padding: 20px 0 10px 0;
@@ -218,7 +218,7 @@ a {
       #main-header nav ul {
         width: 100%;
         float: left;
-      
+
         margin-bottom: 20px;
         text-align: center; } }
     #main-header nav ul li {
@@ -322,7 +322,10 @@ a {
   @media screen and (max-width: 768px) {
     .hero-content img {
       width: 200px;
-      height: 200px; } }
+      height: 200px; }
+      .hero-content  {
+      margin-top: 30px;
+     }
 
 /***********************************ABOUT STYLES***********************************/
 .about-text {
@@ -607,7 +610,7 @@ footer {
   text-align: center;
   height: 50px;
   width: 100%;
-  background: #454545;  
+  background: #454545;
   z-index: 9999;
   line-height: 50px;
   overflow: auto;
@@ -615,5 +618,5 @@ footer {
 
 .link-header a{
   color: #fff;
-  
+
 }
